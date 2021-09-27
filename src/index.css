@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('http://fonts.cdnfonts.com/css/pacifico');
+                
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #b3b3b3 url('images/meme2-bg.png') center;
+}
+header {
+  padding: 8px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  background: #fff url('images/beaker.jpeg') no-repeat center;
+  background-size: 111px;
+}
+b {
+  display: block;
+  font-size: 0.8rem;
+}
+.btn-primary{
+  border-color: #f66518;
+  background-color: #f66518;
+  width: 100%;
+}
+.container {
+  max-width: 630px;
+  background-color: #fff;
+  margin: 50px auto;  
+  display: flex;
+  padding:10px 0;
+}
+.toolbar {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin: 0 20px 0;
+}
+.upload {
+  display: inline-block;
+  margin: 0 0 10px;
+  width: 100%;
+}
+.wrapper {
+  position: relative;
+}
+input, select, button, label {
+  font-size: 0.8rem;
+}
+input[type="file"] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+input[type="color"] {
+  width: 20px;
+  border: 0px;
+  padding: 0;
+  background-color: #fff;
+  height:26px;
+  position: absolute;
+  right:44px;
+}
+input[type="number"]{
+  width:45px;
+  padding: 4px 0 4px 4px;
+  position: absolute;
+  height:26px;
+  right:0px;
+}
+input[type="radio"]{
+  margin:0 3px 0 6px;
+}
+input[type="radio"]:first-of-type{
+  margin:0 3px 0 0;
+}
+.top-text, .bottom-text {
+  border:1px solid grey;
+  border-radius: .25rem;
+  margin: 0 0 10px;
+  padding: 6px;
+}
+select {
+  width: 100%;
+}
+.me-image{
+  position: relative;
+  float: left;
+  height: 436px;
+}
+.me-text-top, .me-text-bottom {
+  position: absolute;
+  top: 0;
+  width:100%;
+  height: 50px;
+  font-size: 20px;
+  font-family: arial;
+}
+.me-text-bottom {
+  bottom:0;
+  top:auto;
 }
