@@ -1,5 +1,10 @@
 
-@import url('http://fonts.cdnfonts.com/css/pacifico');
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico'), url('./Pacifico.woff') format('woff');
+}
                 
 body {
   width: 100%;

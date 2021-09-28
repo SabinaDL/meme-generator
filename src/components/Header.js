@@ -15,7 +15,6 @@ const headline = {
   color: '#f66518'
 }
 const subline = {
-  display: 'inline-block',
   fontSize: '1rem',
   right: '30%',
   position: 'absolute',
