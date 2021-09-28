@@ -4,6 +4,7 @@ import { MemeContext  } from './MemeContext';
 
 
 const Stage = () => {
+    // import context that we want to use (MemeContext)
     const {topText, bottomText, meImage} = useContext(MemeContext);
     const [topTextValue] = topText;
     const [bottomTextValue] = bottomText;
@@ -16,7 +17,6 @@ const Stage = () => {
             <div className="me-text-bottom" id="meBottomText">{bottomTextValue}</div>
         </div>
     )
-
 }
 
 const imageStyle = {

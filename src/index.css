@@ -10,13 +10,13 @@ body {
   background: #b3b3b3 url('images/meme2-bg.png') center;
 }
 header {
-  padding: 8px;
   width: 100%;
   height: 100px;
   text-align: center;
   font-family: 'Comic Sans MS', 'Arial', sans-serif;
-  background: #fff url('images/beaker.jpeg') no-repeat center;
-  background-size: 111px;
+  background: #fff url('images/beaker.jpeg') no-repeat center bottom;
+  background-size: 60px;
+  position: relative;
 }
 b {
   display: block;
@@ -26,6 +26,11 @@ b {
   border-color: #f66518;
   background-color: #f66518;
   width: 100%;
+}
+.btn-primary:hover {
+  color: #f66518;
+  background-color: #fff;
+  border-color: #f66518;
 }
 .container {
   max-width: 630px;
@@ -39,6 +44,7 @@ b {
   padding: 0;
   float: left;
   margin: 0 20px 0;
+  width: 30%;
 }
 .upload {
   display: inline-block;

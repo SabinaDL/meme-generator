@@ -4,8 +4,8 @@ import { MemeContext } from './MemeContext';
 
 const TextSettings = (props) => {
     const {topText, bottomText} = useContext(MemeContext);
-    const [setTopTextValue] = topText;
-    const [setBottomTextValue] = bottomText;
+    const [setTopText, setTopTextValue] = topText;
+    const [setBottomText, setBottomTextValue] = bottomText;
 
     //if the user types the text in the input, update text on meme
     const handleInput = e => {
