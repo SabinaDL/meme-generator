@@ -24,7 +24,6 @@ Beschreibe, wie wir uns das Projekt lokal anschauen können.
 Folgende Komponenten müssen lokal installiert sein:
 
 - [nodejs](https://nodejs.org/en/) v14.15.4
-- [reactjs](https://dotnet.microsoft.com/download) 17.0.2
 
 Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
 
